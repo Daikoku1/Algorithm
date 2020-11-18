@@ -42,7 +42,7 @@ Algorithm
 ### 자료구조
 [카드 정렬하기](https://github.com/Daikoku1/Algorithm/blob/master/%EB%B0%B1%EC%A4%80/1715_%EC%B9%B4%EB%93%9C%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0.ipynb)
 | [중앙값 구하기](https://github.com/Daikoku1/Algorithm/blob/master/%EB%B0%B1%EC%A4%80/2696_%EC%A4%91%EC%95%99%EA%B0%92%20%EA%B5%AC%ED%95%98%EA%B8%B0.ipynb)
-
+| [강의실 배정](https://github.com/Daikoku1/Algorithm/blob/master/%EB%B0%B1%EC%A4%80/11000_%EA%B0%95%EC%9D%98%EC%8B%A4%EB%B0%B0%EC%A0%95.ipynb)
 
 ### 트리구조
 [트리 순회](https://github.com/Daikoku1/Algorithm/blob/master/%EB%B0%B1%EC%A4%80/1991%EB%B2%88.%20%ED%8A%B8%EB%A6%AC%20%EC%88%9C%ED%9A%8C.ipynb)
