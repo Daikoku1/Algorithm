@@ -46,3 +46,9 @@ Algorithm
 
 ### 트리구조
 [트리 순회](https://github.com/Daikoku1/Algorithm/blob/master/%EB%B0%B1%EC%A4%80/1991%EB%B2%88.%20%ED%8A%B8%EB%A6%AC%20%EC%88%9C%ED%9A%8C.ipynb)
+
+### DP(다이나믹프로그래밍)
+[1로 만들기](https://github.com/Daikoku1/Algorithm/blob/master/%EB%B0%B1%EC%A4%80/1463_1%EB%A1%9C%20%EB%A7%8C%EB%93%A4%EA%B8%B0.ipynb)
+
+### 스택
+[Decode String](https://github.com/Daikoku1/Algorithm/blob/master/LeetCode/Decode%20String.ipynb)
