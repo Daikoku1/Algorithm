@@ -1,14 +1,12 @@
 from pathlib import Path
-
 def count_problem_by_source():
-    directory_list = ['백준', 'Codeup', 'LeetCode', 'Programmers']
-    problem_count = []
-    for d_path in directory_list:
-        code_path = Path.cwd() / d_path
-        problem_count.append(len(list(code_path.glob('*.ipynb'))))
+    directories = {i : 0 for i in ['백준', 'Codeup', 'LeetCode', 'Programmers']}
+    for d_name in directories.keys():
+        code_path = Path.cwd() / d_name
+        directories[d_name] = len(list(code_path.glob('*.ipynb')))
 
-    count_info = f"#### 현재까지 풀어본 총 문제 수 : {sum(problem_count)}개\n"
-    for name, cnt in zip(directory_list, problem_count):
+    count_info = f"### 현재까지 풀어본 총 문제 수 : {sum(directories.values())}개\n"
+    for name, cnt in sorted(directories.items(), reverse = True):
         count_info += f"- {name} - {cnt}개\n"
     return count_info
 
@@ -22,6 +20,7 @@ def make_readme(count_info):
 - 코드에 기재된 time은 해당 코드의 구동시간으로, 컴퓨터의 성능, 인터넷의 연결 상태 등에 달라질 수 있습니다. 코드간 상대적 비교에만 사용하시기 바랍니다.   
 
 {count_info}
+
 ### 문제 출처
 - [Programmers](https://programmers.co.kr/)
 - [LeetCode](https://leetcode.com/)
