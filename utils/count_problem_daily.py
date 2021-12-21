@@ -5,13 +5,12 @@ def count_problem_by_source():
     problem_count = []
     for d_path in directory_list:
         code_path = Path.cwd() / d_path
-        problem_count.append(len(list(code_path.glob('/*.ipynb'))))
+        problem_count.append(len(list(code_path.glob('*.ipynb'))))
 
     count_info = f"#### 현재까지 풀어본 총 문제 수 : {sum(problem_count)}개\n"
     for name, cnt in zip(directory_list, problem_count):
         count_info += f"- {name} - {cnt}개\n"
     return count_info
-
 
 def make_readme(count_info):
     return f"""# Algorithm
