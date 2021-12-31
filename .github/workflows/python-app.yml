@@ -35,4 +35,4 @@ jobs:
         git config --local user.email "jjys9047@naver.com"
         git config --local user.name "Daikoku"
         git commit -m "Update README.md"
-        git push
+        (git push) || true
